@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club - AIUB</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#schedule">Schedule</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <header>
+        <h1>Welcome to the Coding Club</h1>
+        <p>Learn, build and grow together</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="images/logo.png" alt="Coding Club logo" class="logo">
+        <p>
+            The Coding Club helps new students learn programming through weekly
+            workshops, problem solving practice and team projects. Everyone is
+            welcome, even if you have never written a line of code.
+        </p>
+    </section>
+
+    <section id="schedule">
+        <h2>Weekly Schedule</h2>
+        <table>
+            <tr>
+                <th colspan="3">Coding Club Weekly Schedule</th>
+            </tr>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Sunday</td>
+                <td>Python Workshop</td>
+                <td>4:00 PM</td>
+            </tr>
+            <tr>
+                <td>Problem Solving Practice</td>
+                <td>6:00 PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>Web Development Session</td>
+                <td>5:00 PM</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Team Project Meeting</td>
+                <td>4:30 PM</td>
+            </tr>
+            <tr>
+                <td colspan="3" class="note">Friday and Saturday: Club closed</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="register">
+        <h2>Registration</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Join the Club</legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" minlength="6">
+                <br><br>
+
+                Gender:<br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br><br>
+
+                <label for="department">Department:</label><br>
+                <select id="department" name="department">
+                    <option value="cse">CSE</option>
+                    <option value="eee">EEE</option>
+                    <option value="bba">BBA</option>
+                    <option value="english">English</option>
+                </select>
+                <br><br>
+
+                <input type="submit" value="Submit" class="btn">
+                <input type="reset" value="Reset" class="btn">
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <a href="https://www.aiub.edu" target="_blank" rel="noopener noreferrer">Visit the AIUB Website</a>
+    </footer>
+
+</body>
+</html>
