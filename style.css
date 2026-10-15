@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #222;
+    padding-top: 60px;   
+    line-height: 1.5;
+}
+
+header {
+    background-color: #1f2f4f;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+}
+
+section {
+    scroll-margin-top: 70px;  
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1, h2, legend {
+    font-family: Georgia, serif;
+    color: #1f2f4f;
+}
+
+header h1 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0d1b36;
+    z-index: 1000;
+}
+
+nav a {
+    display: inline-block;  
+    padding: 18px 22px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc00;
+}
+
+#about {
+    width: 700px;
+    max-width: 95%;
+    padding: 20px;
+    border: 2px solid #1f2f4f;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.logo {
+    display: block;
+    max-width: 150px;
+    margin: 10px 0;
+}
+
+#schedule {
+    width: 700px;
+    max-width: 95%;
+    margin: 30px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #dde3f0;
+}
+
+.note {
+    font-style: italic;
+    color: #555;
+}
+
+#register {
+    width: 700px;
+    max-width: 95%;
+    margin: 30px auto;
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid #1f2f4f;
+    background-color: white;
+}
+
+legend {
+    padding: 0 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 280px;
+    padding: 6px;
+    border: 1px solid #999;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    background-color: #1f2f4f;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3a5080;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #1f2f4f;
+}
+
+footer a {
+    color: white;
+}
